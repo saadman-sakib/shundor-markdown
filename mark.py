@@ -11,7 +11,7 @@ response = httpx.post(
     },
 )
 if response.status_code == 200:
-    with open('index.html', 'w') as f:
+    with open('build/index.html', 'w') as f:
         f.write(f'''
 <html>
 <head>
