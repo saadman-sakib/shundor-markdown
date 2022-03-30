@@ -4,12 +4,7 @@ body {
   max-width: 980px;
   margin: 0 auto;
   padding: 45px;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #0d1117;
-  }
+  background-color: #0d1117;
 }
 
 .markdown-body {
